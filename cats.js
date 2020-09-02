@@ -48,5 +48,8 @@ const catBreeds = [{
 console.log(catBreeds[2].name);
 console.log(catBreeds[0].energy_level);
 console.log(catBreeds[1].temperament[0]);
-// console.log(catBreeds[2].temperament[temperament.length - 1]);
+
+const lengthTemperamentAmericanBobtail = catBreeds[2].temperament.length;
+console.log(catBreeds[2].temperament[lengthTemperamentAmericanBobtail - 1]);
+
 console.log(catBreeds[2].food.favourite_food);
